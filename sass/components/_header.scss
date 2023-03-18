@@ -1,0 +1,18 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  padding-bottom: 25px;
+}
+.header-logo {
+  color: $primarycolor;
+  margin-left: $margin-left-main;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+  margin-right: 93px;
+  transition-property: color;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-timing-function;
+}
