@@ -1,10 +1,14 @@
+@import "./utils/variables";
 @import "./components/header";
-@import "./components/main-section";
-@import "./components/container_icon";
-@import "./components/card";
-@import "./components/work";
-@import "./components/team";
-@import "./components/container\ our_customer";
-@import "./components/footer_box";
-@import "./components/header";
-@import "./utils/vars";
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 94px;
+  width: 100%;
+}
+body {
+  color: #212121;
+}
