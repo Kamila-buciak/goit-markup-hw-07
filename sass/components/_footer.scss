@@ -1,15 +1,16 @@
-.footer_box {
-  display: flex;
+footer {
   background-color: #2f303a;
   height: 252px;
 }
+.footer_box {
+  display: flex;
+}
 .footer_one {
   padding-top: 30px;
-  margin-left: 215px;
 }
 .footer_two {
   padding-top: 52px;
-  padding-left: 100px;
+  padding-left: 90px;
 }
 
 .footer_three {
