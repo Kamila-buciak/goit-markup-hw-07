@@ -1,0 +1,31 @@
+.icon {
+  display: flex;
+  padding-right: 30px;
+  transition-property: fill;
+  margin-left: -100px;
+}
+.icon_item {
+  display: flex;
+}
+.icon_item > li {
+  list-style-type: none;
+  padding-right: 30px;
+}
+
+.icon_svg {
+  background-color: $color-border;
+  width: 270px;
+  height: 120px;
+}
+.icon_header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $color-black;
+}
+.icon_text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: $color-grey;
+}

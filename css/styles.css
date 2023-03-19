@@ -73,8 +73,8 @@ body {
   font-weight: 700;
   line-height: 1.14;
   text-decoration: none;
-  padding-left: 46px;
-  padding-top: 28px;
+  margin-left: 46px;
+  margin-top: 28px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -189,30 +189,6 @@ body {
   width: 1170px;
   height: 101px;
   display: flex;
-}
-
-.card {
-  width: 1200px;
-  margin-left: 207px;
-}
-.card_set {
-  display: flex;
-  list-style: none;
-  padding-left: 15px;
-  margin-bottom: 94px;
-}
-.card_item {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  color: var(--secondary-color);
-}
-.card_item h4 {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  color: var(--main-color);
-  padding-bottom: 10px;
 }
 
 .work {
@@ -429,23 +405,25 @@ footer {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon-item-portfolio {
+
+.footer-icon_item_two {
   list-style-type: none;
   width: 25px;
   height: 25px;
   background-color: #ffffff1a;
   border-radius: 50%;
-  margin-right: 10px;
   padding: 9px;
+  margin-right: 10px;
   cursor: pointer;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon-item-portfolio:focus,
-.footer-icon-item-portfolio:hover {
+.footer-icon_item_two:focus,
+.footer-icon_item_two:hover {
   background: #2196f3;
 }
+
 .footer-icon_item:focus,
 .footer-icon_item:hover {
   background: #2196f3;
@@ -454,9 +432,6 @@ footer {
   fill: #ffffffff;
   display: flex;
   padding: 3px;
-}
-.footer-icon-icon:focus {
-  fill: #2196f3;
 }
 
 .footer_newsletter {
@@ -468,6 +443,19 @@ footer {
   padding-left: 10px;
 }
 
+.footer-newsletter_portfolio {
+  background-color: transparent;
+  border: 1px solid #ffffff4d;
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+.footer-newsletter_portfolio::placeholder {
+  padding: 15px;
+  font-family: "Roboto";
+}
 .button_submit {
   text-align: justify;
   padding-left: 42px;
@@ -496,20 +484,16 @@ footer {
   color: #ffffff;
 }
 
-.button-position {
+.button {
   display: flex;
   list-style: none;
   margin-left: 320px;
 }
-.list-position {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  color: #212121;
+.button_size {
   margin-right: 10px;
 }
 
-.button-two {
+.button_description {
   background: #f5f4fa;
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
@@ -518,8 +502,8 @@ footer {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.button-two:hover,
-.button-two:focus {
+.button_description:hover,
+.button_description:focus {
   cursor: pointer;
   background-color: #2196f3;
   color: white;
@@ -756,10 +740,7 @@ input {
   padding-left: 10px;
   font-size: 16px;
 }
-.subscribe-newsletter-portfolio::placeholder {
-  padding: 15px;
-  font-family: "Roboto";
-}
+
 textarea {
   resize: none;
 }
