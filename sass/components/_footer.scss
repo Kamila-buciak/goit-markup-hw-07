@@ -5,20 +5,20 @@ footer {
 .footer_box {
   display: flex;
 }
-.footer_one {
+.footer_date {
   padding-top: 30px;
 }
-.footer_two {
+.footer_icons {
   padding-top: 52px;
   padding-left: 90px;
 }
 
-.footer_three {
+.footer_newsletter {
   padding-left: 80px;
   padding-top: 52px;
 }
-.footer_four {
-  padding-top: 114px;
+.footer_button {
+  padding-top: 108px;
 }
 .footer_text {
   color: $color-white;
@@ -76,7 +76,7 @@ footer {
 .footer_icon {
   fill: $color-white;
 }
-.footer_newsletter {
+.footer_input {
   background-color: transparent;
   border: 1px solid #ffffff4d;
   border-radius: 4px;

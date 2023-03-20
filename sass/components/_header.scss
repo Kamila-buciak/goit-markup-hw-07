@@ -13,21 +13,23 @@
   line-height: 1.19;
   color: #000000;
   text-decoration: none;
+  padding-left: 15px;
 }
 .logo_text_blue {
   color: $color-blue;
 }
 .navigation {
   display: flex;
-  list-style: none;
+  list-style-type: none;
   margin-left: 93px;
 }
+
 .navigation_link {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
-  color: $color-black;
   text-decoration: none;
+  color: $color-black;
   margin-left: 46px;
   margin-top: 8px;
   transition-property: color;
@@ -38,7 +40,7 @@
 .navigation_link:focus {
   color: $color-blue;
 }
-.underline::after {
+.navigation-list_item::after {
   display: block;
   position: absolute;
   content: "";
@@ -47,13 +49,13 @@
   width: 53px;
   border-radius: 2px;
   margin-left: 48px;
-  margin-top: 16px;
+  margin-top: 18px;
 }
 .contact {
   display: flex;
   text-align: center;
   align-items: center;
-  margin-left: 220px;
+  margin-left: 240px;
 }
 
 .contact_list {
